@@ -53,10 +53,6 @@
   --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
   --background-blur: 0px; /* app background blur [default: 0px] */
 
-  /* HOME BUTTON ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
-  --home-position: center; /* home button icon position [default: center] */
-  --home-size: 40px; /* home button icon size [default: 40px] */
 
   /* CHANNEL COLORS */
   --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
@@ -108,8 +104,5 @@
   --user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(--background-sepia)] */
   --user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
 
-  /* THEME BD COLORS */
-  --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
-  --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
-  --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+ 
 }
